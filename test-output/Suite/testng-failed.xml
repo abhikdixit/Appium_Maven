@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Device_Info(failed)">
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="deviceName" value="Pixel"/>
+    <parameter name="UDID" value="emulator-5554"/>
+    <parameter name="URL" value="127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="pk_appium.EriBank_App_DataDrivenTesting_Parameters">
+        <methods>
+          <include name="setup"/>
+          <include name="EriBank_MakePayment"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- pk_appium.EriBank_App_DataDrivenTesting_Parameters -->
+    </classes>
+  </test> <!-- Device_Info(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2" >
+ <test name="Device1">
+ <parameter name="deviceName_" value="Nexus_6"/>
+ <parameter name="UDID_" value="emulator-5556"/>
+ <parameter name="platformVersion_" value="6.0"/>
+ <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+ <classes>
+      <class name="pk_appium.Eribank_Parallel_Execution"/>
+ </classes>
+</test>
+ <test name="Device2">
+ <parameter name="deviceName_" value="Galaxy_Nexus_7"/>
+ <parameter name="UDID_" value="emulator-5554"/>
+ <parameter name="platformVersion_" value="7.0"/>
+ <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+ <classes>
+      <class name="pk_appium.Calculator_App_Addition_Multiplication_Parameter"/>
+ </classes>
+</test>
+</suite> <!-- Suite -->

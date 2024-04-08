@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17158" started-at="2024-04-05T16:35:48 IST" finished-at="2024-04-05T16:36:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17158" started-at="2024-04-05T16:35:48 IST" finished-at="2024-04-05T16:36:05 IST">
+      <class name="pk_MyDempApp.EriBank_App_Make_Payment">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:pk_MyDempApp.EriBank_App_Make_Payment@1060b431]" name="LaunchApp" duration-ms="14657" started-at="2024-04-05T16:35:48 IST" finished-at="2024-04-05T16:36:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="EriBank_SignOn()[pri:1, instance:pk_MyDempApp.EriBank_App_Make_Payment@1060b431]" name="EriBank_SignOn" duration-ms="2470" started-at="2024-04-05T16:36:03 IST" finished-at="2024-04-05T16:36:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EriBank_SignOn -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:pk_MyDempApp.EriBank_App_Make_Payment@1060b431]" name="CloseApp" is-config="true" duration-ms="1" started-at="2024-04-05T16:36:05 IST" finished-at="2024-04-05T16:36:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- pk_MyDempApp.EriBank_App_Make_Payment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

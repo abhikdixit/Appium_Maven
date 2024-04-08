@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+   <test name="Device_Info">
+	 <parameter name="deviceName" value="Pixel"/>
+	 <parameter name="UDID" value="emulator-5554"/>
+	 <parameter name="platformVersion" value="7.0"/>
+	 <parameter name="URL" value="127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="pk_appium.EriBank_App_DataDrivenTesting_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
